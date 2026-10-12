@@ -1,0 +1,130 @@
+<!doctype html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>데이노트 개인정보처리방침</title>
+<meta name="description" content="데이노트는 개인정보를 수집하지 않으며 모든 데이터를 이용자 기기에만 저장합니다.">
+<style>
+  :root { --bg:#FAFAF7; --text:#242B32; --muted:#5E6670; --line:#E3E1DA; --accent:#4F5DB8; --card:#FFFFFF; }
+  @media (prefers-color-scheme: dark) {
+    :root { --bg:#15181B; --text:#ECEDEE; --muted:#B3B8BF; --line:#2F353B; --accent:#A5AFF0; --card:#1E2226; }
+  }
+  * { box-sizing: border-box; }
+  body { margin:0; background:var(--bg); color:var(--text); font:16px/1.7 -apple-system, BlinkMacSystemFont, "Apple SD Gothic Neo", "Malgun Gothic", "Noto Sans KR", sans-serif; }
+  main { max-width:760px; margin:0 auto; padding:32px 16px 64px; }
+  h1 { font-size:26px; line-height:1.3; margin:0 0 4px; }
+  h2 { font-size:19px; margin:36px 0 8px; padding-top:12px; border-top:1px solid var(--line); }
+  p, li { margin:8px 0; }
+  .meta { color:var(--muted); font-size:14px; margin-bottom:24px; }
+  .summary { background:var(--card); border:1px solid var(--line); border-radius:12px; padding:14px 16px; }
+  .table { overflow-x:auto; }
+  table { border-collapse:collapse; width:100%; font-size:15px; margin:8px 0; }
+  th, td { border:1px solid var(--line); padding:8px 10px; text-align:left; vertical-align:top; }
+  th { background:var(--card); }
+  a { color:var(--accent); }
+</style>
+</head>
+<body>
+<main>
+<h1>데이노트 개인정보처리방침</h1>
+<p class="meta">공고일 2026년 10월 13일 · 시행일 2026년 10월 13일</p>
+
+<p class="summary">데이노트는 이용자의 개인정보를 수집하거나 외부로 전송하지 않습니다. 회원가입·로그인·서버가 없으며, 입력한 내용은 이용자의 기기 안에만 저장됩니다.</p>
+
+<h2>1. 개요</h2>
+<p>데이노트(이하 "앱")는 이용자의 개인정보를 수집하거나 외부로 전송하지 않습니다. 앱에는 회원가입·로그인·서버가 없으며, 이용자가 입력한 내용은 이용자의 기기 안에만 저장됩니다.</p>
+<p>이 방침은 「개인정보 보호법」 제30조에 따라 앱이 정보를 어떻게 다루는지 알리기 위해 공개합니다. 앱 운영자(이하 "운영자")는 이용자의 기기에 저장된 정보에 접근할 수 없습니다.</p>
+
+<h2>2. 앱이 다루는 정보와 저장 위치</h2>
+<p>앱은 이용자가 직접 입력한 정보만 기기 내부 데이터베이스(SQLite)에 저장합니다. 이 정보는 운영자나 제3자에게 전송되지 않습니다.</p>
+<div class="table"><table>
+<thead><tr><th>구분</th><th>내용</th><th>저장 위치</th></tr></thead>
+<tbody>
+<tr><td>일정</td><td>제목, 날짜·시간, 시간대, 메모, 카테고리, 알림 설정</td><td>이용자 기기</td></tr>
+<tr><td>할 일·세부 항목</td><td>제목, 날짜, 완료 여부, 메모, 카테고리</td><td>이용자 기기</td></tr>
+<tr><td>카테고리</td><td>이름, 색상, 순서</td><td>이용자 기기</td></tr>
+<tr><td>앱 설정</td><td>주 시작 요일, 시작 화면, 테마, 기본 알림, 위젯 제목 표시 여부</td><td>이용자 기기</td></tr>
+<tr><td>알림 예약 정보</td><td>기기가 발급한 알림 식별자와 예약 상태</td><td>이용자 기기</td></tr>
+</tbody></table></div>
+<p>앱은 이름, 연락처, 이메일, 위치, 기기 식별자, 사용 기록을 수집하지 않습니다. 메모에 개인정보를 적는 것은 이용자의 선택이며, 그 내용도 기기 밖으로 나가지 않습니다.</p>
+
+<h2>3. 기기 권한</h2>
+<p>앱은 기능에 꼭 필요한 권한만, 이용자가 해당 기능을 쓸 때 요청합니다. 권한을 허용하지 않아도 일정과 할 일은 저장하고 사용할 수 있습니다.</p>
+<div class="table"><table>
+<thead><tr><th>권한</th><th>요청 시점</th><th>용도</th><th>필수 여부</th></tr></thead>
+<tbody>
+<tr><td>알림</td><td>일정에 알림을 켜고 저장할 때, 또는 설정에서 허용을 누를 때</td><td>기기 안에서 예약하는 일정 알림 표시</td><td>선택</td></tr>
+<tr><td>파일 선택·공유</td><td>내보내기·가져오기를 실행할 때</td><td>이용자가 고른 파일만 읽거나 공유</td><td>선택</td></tr>
+</tbody></table></div>
+<p>알림은 기기 자체의 로컬 알림으로, 운영자 서버나 푸시 서비스를 거치지 않습니다. 알림에는 일정 제목과 시작 시각만 표시되며 메모는 들어가지 않습니다. 권한은 기기 설정에서 언제든 변경할 수 있습니다. 앱은 위치, 카메라, 마이크, 연락처, 사진 권한을 요청하지 않습니다.</p>
+
+<h2>4. 제3자 제공·처리 위탁·국외 이전</h2>
+<p>운영자는 개인정보를 수집하지 않으므로 제3자에게 제공하거나, 처리를 위탁하거나, 국외로 이전하지 않습니다.</p>
+<ul>
+<li>앱에는 광고, 사용 통계·분석, 오류 보고, 마케팅 도구가 들어 있지 않습니다.</li>
+<li>앱은 인터넷으로 데이터를 보내지 않습니다.</li>
+<li>달력의 공휴일 정보는 관보를 바탕으로 한 공개 데이터를 앱에 포함한 것이며, 조회할 때 통신을 하지 않습니다.</li>
+<li>이용자가 내보내기 파일을 다른 앱이나 사람에게 공유하면, 그 이후의 처리는 공유받은 쪽의 정책을 따릅니다.</li>
+<li>기기의 백업 기능(iCloud, Google 백업 등)을 켜 두었다면, 운영체제나 제조사의 정책에 따라 앱 데이터가 백업될 수 있습니다. 이는 운영자가 아닌 기기 제공사가 처리합니다.</li>
+</ul>
+
+<h2>5. 보관 기간과 삭제</h2>
+<p>정보는 이용자가 직접 지우거나 앱을 삭제할 때까지 기기에 보관됩니다. 운영자는 별도로 보관하는 사본이 없습니다.</p>
+<ul>
+<li><strong>항목 삭제</strong>: 앱에서 일정·할 일·세부 항목·카테고리를 삭제하면 기기 데이터베이스에서 즉시 삭제되고, 해당 일정의 예약 알림도 취소됩니다.</li>
+<li><strong>전체 삭제</strong>: 앱을 삭제하면 앱에 저장된 모든 정보가 함께 삭제되며 복구할 수 없습니다.</li>
+<li><strong>내보낸 파일</strong>: 내보내기로 만든 JSON 파일은 이용자가 저장한 곳에 남으며, 앱을 삭제해도 자동으로 지워지지 않습니다. 필요 없으면 이용자가 직접 삭제해 주세요.</li>
+</ul>
+
+<h2>6. 이용자의 권리와 행사 방법</h2>
+<p>모든 정보가 이용자 기기에 있으므로, 이용자는 운영자에게 요청하지 않고 앱에서 직접 권리를 행사할 수 있습니다.</p>
+<div class="table"><table>
+<thead><tr><th>권리</th><th>방법</th></tr></thead>
+<tbody>
+<tr><td>열람</td><td>오늘·달력·목록 탭과 각 항목 상세 화면</td></tr>
+<tr><td>정정</td><td>항목 상세의 편집, 설정 탭</td></tr>
+<tr><td>삭제</td><td>항목 상세의 삭제, 설정 &gt; 카테고리, 앱 삭제</td></tr>
+<tr><td>사본 받기(이동)</td><td>설정 &gt; 내보내기 · 가져오기에서 JSON 파일로 내보내기</td></tr>
+<tr><td>알림 동의 철회</td><td>기기 설정에서 데이노트의 알림 끄기</td></tr>
+</tbody></table></div>
+<p>운영자는 이용자의 정보를 갖고 있지 않아, 문의를 받더라도 대신 열람하거나 삭제해 드릴 수 없습니다.</p>
+
+<h2>7. 안전성 확보 조치</h2>
+<p>앱 데이터는 운영체제가 격리하는 앱 전용 저장 공간에 보관되어 다른 앱이 읽을 수 없습니다.</p>
+<ul>
+<li>네트워크 전송이 없어 전송 중 유출 위험이 없습니다.</li>
+<li>알림과 잠금 화면에는 메모를 표시하지 않습니다.</li>
+<li>앱은 입력 내용을 로그로 남기지 않습니다.</li>
+<li>기기 자체의 화면 잠금을 설정하면 다른 사람이 앱 내용을 보는 것을 막을 수 있습니다.</li>
+<li>내보낸 파일은 암호화되지 않은 일반 텍스트(JSON)입니다. 메모 등 민감한 내용이 들어 있을 수 있으니 안전한 곳에만 보관하고 공유에 주의해 주세요.</li>
+</ul>
+
+<h2>8. 만 14세 미만 아동</h2>
+<p>앱은 연령을 묻지 않고 어떤 이용자의 개인정보도 수집하지 않습니다. 따라서 만 14세 미만 아동의 개인정보를 수집하거나 법정대리인의 동의를 받는 절차가 없습니다.</p>
+
+<h2>9. 개인정보 보호책임자와 문의처</h2>
+<p>개인정보와 관련한 문의는 아래로 보내 주세요.</p>
+<div class="table"><table>
+<tbody>
+<tr><th>운영자</th><td>데이노트 개발자</td></tr>
+<tr><th>개인정보 보호책임자</th><td>데이노트 개발자</td></tr>
+<tr><th>이메일</th><td><a href="mailto:smin57743@gmail.com">smin57743@gmail.com</a></td></tr>
+</tbody></table></div>
+<p>개인정보 침해에 대한 상담이나 신고는 아래 기관에도 문의할 수 있습니다.</p>
+<ul>
+<li>개인정보침해 신고센터: (국번 없이) 118, <a href="https://privacy.kisa.or.kr">privacy.kisa.or.kr</a></li>
+<li>개인정보 분쟁조정위원회: 1833-6972, <a href="https://www.kopico.go.kr">www.kopico.go.kr</a></li>
+<li>대검찰청: (국번 없이) 1301, <a href="https://www.spo.go.kr">www.spo.go.kr</a></li>
+<li>경찰청: (국번 없이) 182, <a href="https://ecrm.police.go.kr">ecrm.police.go.kr</a></li>
+</ul>
+
+<h2>10. 방침 변경</h2>
+<p>이 방침은 2026년 10월 13일부터 적용됩니다. 앱이 정보를 다루는 방식이 바뀌면(예: 동기화·계정 기능 추가) 적용 최소 7일 전에 이 페이지와 앱 업데이트 안내로 알립니다. 이용자에게 불리한 변경은 30일 전에 알립니다.</p>
+<ul>
+<li>공고일: 2026년 10월 13일</li>
+<li>시행일: 2026년 10월 13일</li>
+</ul>
+</main>
+</body>
+</html>
